@@ -78,7 +78,9 @@ abbr{
 
 #skills>abbr>img{
   width: 100px;
+  height: 100px;
   padding: 20px;
+  margin: auto;
 }
 #skills>abbr>img:hover{
   background-color: black;
@@ -91,6 +93,9 @@ h1{
   margin-top: 20px;
   margin-bottom: 20px;
 }
+/* .contrib-number{
+  color: red;
+} */
 
 @media (max-width:1000px) and (min-width:700px){
   #navbar{
@@ -285,7 +290,7 @@ section .title::before {
   left: 50%;
   width: 180px;
   height: 3px;
-  background: #111;
+  background: #f0ebeb;
  
 }
 section .title::after {
@@ -493,11 +498,11 @@ section .title::after {
 .project .title::before {
   background: #fff;
 }
-.services .title::after,
+/* .services .title::after,
 .project .title::after {
-  background: #111;
+  background: #f0ecec;
   content: "My Git Cal";
-}
+} */
 .services .serv-content .card {
   width: calc(33% - 20px);
   background: #222;
